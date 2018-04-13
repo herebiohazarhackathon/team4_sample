@@ -23,13 +23,18 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-        team4.cpp
+        team4.cpp \
+    derivative.cpp \
+    variable.cpp
 
 HEADERS += \
         team4.h \
         team4_global.h \ 
     haff.h \
-    sort.h
+    sort.h \
+    derivative.h \
+    variable.h \
+    derivtask.h
 
 unix {
     target.path = /usr/lib
