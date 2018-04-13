@@ -27,7 +27,8 @@ SOURCES += \
 
 HEADERS += \
         team4.h \
-        team4_global.h 
+        team4_global.h \ 
+    haff.h
 
 unix {
     target.path = /usr/lib
