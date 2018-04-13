@@ -25,7 +25,9 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         team4.cpp \
     derivative.cpp \
-    variable.cpp
+    variable.cpp \
+    gcd.cpp \
+    uniq.cpp
 
 HEADERS += \
         team4.h \
@@ -34,7 +36,9 @@ HEADERS += \
     sort.h \
     derivative.h \
     variable.h \
-    derivtask.h
+    derivtask.h \
+    gcd.h \
+    uniq.h
 
 unix {
     target.path = /usr/lib

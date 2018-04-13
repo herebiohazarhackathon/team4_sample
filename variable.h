@@ -19,7 +19,7 @@ public:
     int getP() const;
 
 
-    static string toString(const vector<Variable> exp);
+	static string toString(const vector<Variable>& exp);
 
 private:
 

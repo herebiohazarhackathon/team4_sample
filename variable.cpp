@@ -25,7 +25,7 @@ int Variable::getP() const
     return p;
 }
 
-string Variable::toString(const vector<Variable> exp)
+string Variable::toString(const vector<Variable>& exp)
 {
     string result;
     for (int i = 0; i < exp.size(); i++)
