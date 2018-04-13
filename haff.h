@@ -12,7 +12,7 @@ using std::cout;
 using std::endl;
 using std::string;
 
-int Haff(string ss) {
+string Haff(string ss) {
     string s;
 //    cin >> ss;
     int l = ss.length();
@@ -46,12 +46,8 @@ int Haff(string ss) {
     for (int i = 0; i < l; ++i) {
         s += H[ss[i]];
     }
-    cout << a.size() << " " << s.length() << endl;
-    for (auto k : H) {
-        cout << k.first << ": " << k.second << endl;
-    }
-    cout << s << endl;
-    return 0;
+
+	return s;
 }
 
 #endif // HAFF_H

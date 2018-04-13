@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       -= gui
+QT       -= gui qt
 
 TARGET = team4
 TEMPLATE = lib
@@ -28,7 +28,8 @@ SOURCES += \
 HEADERS += \
         team4.h \
         team4_global.h \ 
-    haff.h
+    haff.h \
+    sort.h
 
 unix {
     target.path = /usr/lib
