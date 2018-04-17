@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       -= gui qt
+QT       -= gui
 
 TARGET = team4
 TEMPLATE = lib
@@ -23,22 +23,11 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-        team4.cpp \
-    derivative.cpp \
-    variable.cpp \
-    gcd.cpp \
-    uniq.cpp
+        team4.cpp
 
 HEADERS += \
         team4.h \
-        team4_global.h \ 
-    haff.h \
-    sort.h \
-    derivative.h \
-    variable.h \
-    derivtask.h \
-    gcd.h \
-    uniq.h
+        team4_global.h 
 
 unix {
     target.path = /usr/lib
